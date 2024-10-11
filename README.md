@@ -15,6 +15,7 @@ This project is a Django application designed to compress images based on data p
 - Celery
 - Redis (as the message broker)
 - Pillow (for image processing)
+- Cloudinary (for store image)
 
 ## Getting Started
 
@@ -25,6 +26,7 @@ This project is a Django application designed to compress images based on data p
 - Redis
 - Celery
 - Pillow
+- Cloudinary
 
 ### Installation
 
@@ -48,8 +50,14 @@ This project is a Django application designed to compress images based on data p
 4. **Set up the environment variables:**
    Create a `.env` file in the root of the project and add the following variables:
    ```env
-   CELERY_BROKER_URL=redis://localhost:6379/0
-   CELERY_RESULT_BACKEND=redis://localhost:6379/0
+   CLOUD_NAME=
+   API_KEY=
+   API_SECRET=
+   CELERY_BROKER_URL=
+   CELERY_RESULT_BACKEND=
+   SECRET_KEY=
+   DEBUG=
+   BASE_URL=
    ```
 
 5. **Run database migrations:**
