@@ -50,13 +50,19 @@ This project is a Django application designed to compress images based on data p
 4. **Set up the environment variables:**
    Create a `.env` file in the root of the project and add the following variables:
    ```env
+   Cloudinary configuration
    CLOUD_NAME=
    API_KEY=
    API_SECRET=
+   
+   Celery configuration
    CELERY_BROKER_URL=
    CELERY_RESULT_BACKEND=
    SECRET_KEY=
+   
    DEBUG=
+   
+   Webhook_URL
    BASE_URL=
    ```
 
