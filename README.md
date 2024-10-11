@@ -6,7 +6,7 @@ This project is a Django application designed to compress images based on data p
 
 - Upload a CSV file containing image URLs.
 - Asynchronously compress images to 50% quality using Celery.
-- Download the processed images via a provided URL.
+- Download a CSV file containing compressed image URLs
 - Store the results in a database.
 
 ## Technologies Used
@@ -16,6 +16,8 @@ This project is a Django application designed to compress images based on data p
 - Redis (as the message broker)
 - Pillow (for image processing)
 - Cloudinary (for store image)
+- Postgresql (database)
+
 
 ## Getting Started
 
@@ -27,6 +29,8 @@ This project is a Django application designed to compress images based on data p
 - Celery
 - Pillow
 - Cloudinary
+- Postgresql (database)
+
 
 ### Installation
 
