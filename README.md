@@ -60,6 +60,7 @@ This project is a Django application designed to compress images based on data p
    CELERY_RESULT_BACKEND=
    SECRET_KEY=
    
+   Set debug mode
    DEBUG=
    
    Webhook_URL
