@@ -69,6 +69,9 @@ This project is a Django application designed to compress images based on data p
    
    Webhook_URL
    BASE_URL=
+   
+   Postgresql database url
+   DATABASES_POSTGRESQL=
    ```
 
 5. **Run database migrations:**
