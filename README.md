@@ -43,7 +43,7 @@ This project is a Django application designed to compress images based on data p
 2. **Create a virtual environment:**
    ```bash
    python -m venv env
-   source env/bin/activate  # On Windows use `.\env\Scripts\Activate`
+   source env/bin/activate  
    ```
 
 3. **Install the required packages:**
